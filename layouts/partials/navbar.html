@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ .Site.BaseUrl }}">{{ .Site.Params.title }}</a>
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Params.title }}</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -22,6 +22,7 @@
         {{ with .Site.Params.social.twitter }}<li><a href="{{ . }}"><i class="fa fa-twitter"></i></a></li>{{ end }}
         {{ with .Site.Params.social.soundcloud }}<li><a href="{{ . }}"><i class="fa fa-soundcloud"></i></a></li>{{ end }}
         {{ with .Site.Params.social.reverbnation }}<li><a href="{{ . }}"><i class="fa fa-star"></i></a></li>{{ end }}
+        {{ with .Site.Params.social.bandcamp }}<li><a href="{{ . }}"><i class="fa fa-bandcamp"></i></a></li>{{ end }}
         {{ with .Site.Params.social.contact }}<li><a href=""><i class="fa fa-envelope"></i></a></li>{{ end }}
       </ul>
     </div><!--/.nav-collapse -->
