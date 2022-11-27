@@ -9,6 +9,10 @@ params:
   subtitle: "A Hugo theme for musicians and creative types."
   coverimage: "/images/stage.jpg"
 
+  custom_css: ""  # Extra overrides for CSS tweaks.
+  copyright: "Copyright (c) 2022."  # Inserted in the Footer.
+  welcomePage: ""  # This page's content is used on the Home page, if present.
+
   # Social information
   social:
     facebook: "http://facebook.com/"
